@@ -1,0 +1,25 @@
+.title {
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 0;
+  }
+  
+.description {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .textContainer {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0%; /* Dejar espacio a la izquierda para el margen derecho */
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3rem; /* Ajusta el espaciado según tus preferencias */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end; /* Alinea el texto a la izquierda dentro del contenedor */
+  }
